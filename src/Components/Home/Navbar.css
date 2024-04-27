@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.nav h1{
+    font-size: 2rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color: cyan;
+    transition: .5s ease;
+}

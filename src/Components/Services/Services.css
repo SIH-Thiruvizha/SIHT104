@@ -1,0 +1,48 @@
+/* ServicesPage.css */
+
+.services-container {
+    background-image: url('https://cdn.pixabay.com/photo/2015/10/29/14/38/web-1012467_1280.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.services-content {
+    max-width: 800px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px; /* Add some padding */
+}
+
+/* Add margin and padding to service items */
+.service-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add padding to the items */
+    margin-bottom: 20px; /* Add margin between items */
+    transition: background-color 0.3s ease; /* Add smooth transition for background-color */
+}
+
+/* Hover effect */
+.service-item:hover {
+    background-color: #e0e0e0; /* Change to your desired hover background color */
+}
+
+.service-item h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}

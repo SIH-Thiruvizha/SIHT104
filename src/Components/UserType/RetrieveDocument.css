@@ -1,0 +1,53 @@
+/* RetrieveDocument.css */
+
+.retrieve-document {
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .retrieve-document h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Style for the document selection dropdown */
+  .document-select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* Style for the "Select a document" option */
+  .document-select option:first-child {
+    color: #888;
+  }
+  
+  /* Style for the "Retrieve" button */
+  .retrieve-button {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .retrieve-button:hover {
+    background-color: #45a049;
+  }
+  

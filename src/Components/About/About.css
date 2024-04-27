@@ -1,0 +1,78 @@
+/* AboutPage.css */
+
+/* Background with a gradient and image overlay */
+.about-container {
+    background-image: linear-gradient(to bottom, #f0f0f0, #d3d3d3),
+      url('https://media.istockphoto.com/id/1170264057/photo/contact-us-concept-with-wood-block-and-symbols.jpg?s=1024x1024&w=is&k=20&c=meheO8Mcy3yLvnPoXrsccf1p8bZjB_Dv6IiN7dBza5s=');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Content container with a semi-transparent background */
+  .about-content {
+    max-width: 800px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Increased border radius for a smoother look */
+    padding: 20px;
+    color: #333; /* Text color */
+  }
+  
+  /* Title and section headings */
+  .about-content h1 {
+    font-size: 2.5rem;
+    color: #555; /* Updated title color */
+    margin-bottom: 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 1.8rem; /* Increased heading size */
+    color: #007bff; /* Blue heading color */
+    margin-top: 20px;
+  }
+  
+  /* Paragraph text */
+  .about-content p {
+    font-size: 1.2rem; /* Increased font size */
+    color: #444; /* Updated text color */
+    line-height: 1.6;
+  }
+  
+  /* List items */
+  .about-content ul {
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+  
+  .about-content li {
+    font-size: 1.2rem; /* Increased font size */
+    color: #444; /* Updated text color */
+    line-height: 1.6;
+  }
+  
+  
+  /* Media queries for responsive design (adjust as needed) */
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 15px; /* Increased padding */
+    }
+  
+    .about-content h1 {
+      font-size: 2rem;
+    }
+  
+    .about-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-content p {
+      font-size: 1rem;
+    }
+  }
+  

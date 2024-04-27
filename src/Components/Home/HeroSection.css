@@ -1,0 +1,53 @@
+/* HeroSection.css */
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://img.freepik.com/free-vector/abstract-security-background-blue-tones_23-2147627289.jpg?w=740&t=st=1694667129~exp=1694667729~hmac=a63c50b1ce0ff35937a4b60154ad5e833b9278f2f67c2c2388012429a1f6d039');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+.hero-container {
+    margin-top: 5rem;
+    padding: 2% 7%;
+}
+
+.hero-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+  
+  .hero-container p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .loginbtn{
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+  }
+  .signupbtn{
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 2rem;
+  }
+  
+  .loginbtn:hover {
+    background-color: #0056b3;
+  }
+  .signupbtn:hover {
+    background-color: #0056b3;
+  }
+  
